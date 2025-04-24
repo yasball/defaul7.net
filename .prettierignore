@@ -1,0 +1,12 @@
+.git
+dist
+out
+.next
+node_modules
+public
+.env
+.env.*
+.gitignore
+.prettierignore
+.pnpm-lock.yaml
+*.md

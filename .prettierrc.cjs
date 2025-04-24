@@ -1,0 +1,30 @@
+/** @type {import("prettier").Config} */
+module.exports = {
+    importOrder: [
+        "^@/assets/(.*)$",
+        "^@/components/(.*)$",
+        "^@/composables/(.*)$",
+        "^@/helpers/(.*)$",
+        "^@/misc/(.*)$",
+        "^@/plugins/(.*)$",
+        "^@/rules/(.*)$",
+        "^@/services/(.*)$",
+        "^@/stores/(.*)$",
+        "^@/types/(.*)$",
+        "^@/views/(.*)$",
+        "^(@/.*)",
+        "^[./]",
+    ],
+    importOrderCaseInsensitive: true,
+    importOrderGroupNamespaceSpecifiers: true,
+    importOrderSortSpecifiers: true,
+    importOrderSeparation: true,
+    trailingComma: "all",
+    plugins: [
+        "@trivago/prettier-plugin-sort-imports",
+        "prettier-plugin-tailwindcss",
+    ],
+    singleQuote: false,
+    tabWidth: 4,
+    semi: true,
+};

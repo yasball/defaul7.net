@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme inline {
+    --app-font: var(--app-font);
+}
+
+body {
+    font-family: var(--app-font), sans-serif;
+}
